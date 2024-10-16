@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict Stress</title>
+</head>
+<body>
+    <h1>Enter Your Sleep Parameters</h1>
+    <form action="/predict" method="POST">
+        <label>Snoring Rate:</label><input type="text" name="snoring_rate"><br>
+        <label>Respiration Rate:</label><input type="text" name="respiration_rate"><br>
+        <label>Body Temperature:</label><input type="text" name="body_temperature"><br>
+        <label>Limb Movement:</label><input type="text" name="limb_movement"><br>
+        <label>Blood Oxygen:</label><input type="text" name="blood_oxygen"><br>
+        <label>Eye Movement:</label><input type="text" name="eye_movement"><br>
+        <label>Sleeping Hours:</label><input type="text" name="sleeping_hours"><br>
+        <label>Heart Rate:</label><input type="text" name="heart_rate"><br>
+        <button type="submit">Predict Stress Level</button>
+    </form>
+</body>
+</html>
